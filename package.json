@@ -1,0 +1,23 @@
+{
+  "name": "opentrace",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Sentry for AI agents — capture every LLM call and tool invocation, replay any run with edits.",
+  "license": "MIT",
+  "packageManager": "pnpm@10.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter @opentrace/viewer dev",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22"
+  }
+}

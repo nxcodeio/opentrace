@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <a href="/" className="logo">
               Open<span>Trace</span>
             </a>
-            <a href="https://github.com/vivian-nxcode/opentrace" className="muted">
+            <a href="https://github.com/nxcodeio/opentrace" className="muted">
               GitHub
             </a>
           </header>
